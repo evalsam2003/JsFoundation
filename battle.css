@@ -1,0 +1,26 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(10, 30px);
+    gap: 1px;
+  }
+  
+  .cell {
+    width: 30px;
+    height: 30px;
+    background-color: lightblue;
+    border: 1px solid #333;
+  }
+  
+  .ship {
+    background-color: darkblue;
+  }
+  
+  .hit {
+    background-color: red;
+  }
+  
+  .sunk {
+    background-color: black;
+  }
+  

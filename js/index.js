@@ -41,5 +41,16 @@ function functionName () {
     return "this is a function"
 }
 
+
 //calling a function
 console.log (functionName())
+
+document.write
+ ("<h1>Javascript: </h1>");
+document.writeln("is a scripting");
+document.write("and a case-sensitive language.");
+
+console.log(
+    document.querySelector(".jav"))
+    alert("please include Email")
+    confirm("delete")

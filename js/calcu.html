@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./calcu.js" defer></script>
+    <!-- <script>
+      //datatypes ( primitive and composite)
+
+      //string
+      //  this is for storing alphanumerics characters
+      const name = "gabriel";
+
+      //number
+      let age = 45;
+
+      //undefined
+      let choice = undefined;
+
+      //null
+      let pick = null;
+
+      // boolean ( true or false)
+     const check = true 
+
+     //object(property and values)
+     const obj = {
+        name :"gabriel",
+        age: 45,
+        pick:null,
+        check: false,
+        choice: undefined,
+         }
+         console.log(obj.age)
+
+         //array(indexs)
+    const array = [
+        "gabriel",
+        "dame",
+        45, 
+        60
+    ]
+    console.log(array[1])
+ 
+    //functions( for specifing tasks or jobs )
+    //declearing a function 
+    function functionName(){
+        return "this is a fucntion "
+    }
+
+    //calling a function 
+    console.log(functionName())
+      
+        
+    </script> -->
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 10px;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+      button,
+      input[type="submit"] {
+        width: 100px;
+        background-color: lightgreen;
+        color: black;
+        border: 3px solid green;
+        height: 30px;
+        border-radius: 50px;
+        transition: transform 2s ease-in-out;
+      }
+
+      input[type="submit"]:hover {
+        transform: scale(0.6);
+      }
+      button:hover {
+        transform: scale(0.9);
+      }
+    </style>
+    <h5 id="result">Result:</h5>
+
+    <form id="form">
+      <label for="first">
+        <h4>First:</h4>
+        <input type="number" name="first" id="first" />
+      </label>
+
+      <div style="margin: 10px">
+        <button id="add">Addition</button>
+        <button id="sub">Substract</button>
+        <button id="mul">Multiple</button>
+        <button id="div">Divide</button>
+      </div>
+
+      <label for="second">
+        <h4>Second</h4>
+        <input type="number" name="second" id="second" />
+      </label>
+      <br />
+
+      <input type="submit" value="Calculate" />
+    </form>
+  </body>
+</html>
